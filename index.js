@@ -4,11 +4,11 @@ function updateObjectWithKeyAndValue(object1, key, value) {
   // { weight: 150 }
   //object1[ key ] = value;
   //return object1;
-  
+
   // NOT CORRECT
   // { key: 150 }
   //object1.key = value;
-  
+
   let object2 = Object.assign(object1, { [key]: value });
   return object2;
 }
